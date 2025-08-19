@@ -188,4 +188,4 @@ GROUP BY income.State_Name, City
 ORDER BY `Avg Mean Income` DESC;
 
 -- Switching on SQL Safety mode to stop updates
-SET SQL_SAFE_UPDATES = 0;
+SET SQL_SAFE_UPDATES = 1;
